@@ -1,0 +1,75 @@
+{
+  "@@locale": "ru",
+
+  "appTitle": "Рядом",
+
+  "onboardingQuestion": "Как вы будете пользоваться приложением?",
+  "onboardingHint": "Режим можно сменить позже в настройках",
+  "modeFullTitle": "Я принимаю лекарства и всё настрою сам",
+  "modeFullSubtitle": "Расписание, запасы, история. Близкого можно позвать позже",
+  "modeSimpleTitle": "Мне помогает близкий",
+  "modeSimpleSubtitle": "Крупно и просто: только что выпить сейчас. Настроит близкий",
+  "modeCaregiverTitle": "Я помогаю близкому",
+  "modeCaregiverSubtitle": "Следить за приёмом у мамы, папы или других родных",
+
+  "modeName": "{mode, select, full{Полный} simple{Простой} caregiver{Режим близкого} other{}}",
+  "@modeName": {
+    "description": "Короткое название режима в настройках",
+    "placeholders": { "mode": { "type": "String" } }
+  },
+
+  "actionContinue": "Продолжить",
+  "actionBack": "← Назад",
+  "actionChangeMode": "Сменить режим",
+
+  "navNow": "Сейчас",
+  "navPlan": "План",
+  "navStock": "Запасы",
+  "navMore": "Ещё",
+  "navRelatives": "Близкие",
+  "navMine": "Моё",
+
+  "greeting": "{part, select, morning{Доброе утро} day{Добрый день} evening{Добрый вечер} other{Доброй ночи}}",
+  "@greeting": {
+    "description": "Приветствие на главном экране полного режима",
+    "placeholders": { "part": { "type": "String" } }
+  },
+  "simpleGreeting": "{part, select, morning{Доброе утро!} day{Добрый день!} evening{Добрый вечер!} other{Доброй ночи!}}",
+  "@simpleGreeting": {
+    "description": "Приветствие в простом режиме",
+    "placeholders": { "part": { "type": "String" } }
+  },
+
+  "nowEmptyTitle": "Лекарств пока нет",
+  "nowEmptyText": "Когда вы добавите лекарство, здесь появится то, что нужно принять сейчас.",
+  "planTitle": "План на сегодня",
+  "planEmptyTitle": "План пока пуст",
+  "planEmptyText": "Здесь будут все приёмы на день — утром, днём и вечером.",
+  "stockTitle": "Запасы",
+  "stockEmptyTitle": "Запасов пока нет",
+  "stockEmptyText": "Покажем, на сколько дней хватит таблеток, и напомним купить заранее.",
+  "relativesTitle": "Мои близкие",
+  "relativesEmptyTitle": "Пока никого нет",
+  "relativesEmptyText": "Здесь появятся родные, за приёмом лекарств которых вы следите.",
+  "mineTitle": "Мои лекарства",
+  "mineEmptyTitle": "Лекарств пока нет",
+  "mineEmptyText": "Если вы тоже принимаете лекарства, их можно добавить сюда.",
+
+  "simpleEmptyTitle": "Лекарств пока нет",
+  "simpleEmptyText": "Их добавит близкий",
+  "simpleSettingsEntry": "Настройки для близкого",
+
+  "moreTitle": "Ещё",
+  "settingsTitle": "Настройки",
+  "settingsAppearance": "Оформление",
+  "themeSystem": "Как в телефоне",
+  "themeLight": "Светлая",
+  "themeDark": "Тёмная",
+  "settingsMode": "Режим",
+  "settingsCurrentMode": "Сейчас: {mode}",
+  "@settingsCurrentMode": {
+    "placeholders": { "mode": { "type": "String" } }
+  },
+
+  "medicalDisclaimer": "«Рядом» только напоминает. Дозировку и схему назначает врач — мы их не советуем и не меняем."
+}
